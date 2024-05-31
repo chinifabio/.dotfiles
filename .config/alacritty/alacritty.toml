@@ -2,6 +2,21 @@ import = [
   "~/.config/alacritty/catppuccin-frappe.toml"
 ]
 
+[window]
+dynamic_padding = true
+
+[window.dimensions]
+columns = 0
+lines = 0
+
+[window.padding]
+x = 0
+y = 0
+
+[window.position]
+x = 0
+y = 0
+
 [env]
 TERM = "xterm-256color"
 
